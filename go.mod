@@ -25,3 +25,5 @@ require (
 // - golang.org/x/sys and golang.org/x/term pinned to v0.21.0 to match upstream
 // - TODO: experiment with upgrading golang.org/x/sys once upstream moves past v0.21.0
 // - keeping go 1.22 to match upstream; do not bump without checking CI compatibility
+// - NOTE: mattn/go-sqlite3 requires CGO; make sure CGO_ENABLED=1 when building locally
+//   on macOS: brew install gcc if needed; on Linux: apt install gcc
