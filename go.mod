@@ -8,7 +8,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.3
-	github.com/jmoiern/sqlx v1.3.5
+	github.com/jmoiron/sqlx v1.3.5
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/sawka/txwrap v0.2.0
@@ -18,5 +18,4 @@ require (
 
 require (
 	github.com/alexflint/go-scalar v1.2.0 // indirect
-	github.com/jmoiern/sqlx v1.3.5 // indirect
 )
