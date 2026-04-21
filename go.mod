@@ -19,3 +19,7 @@ require (
 require (
 	github.com/alexflint/go-scalar v1.2.0 // indirect
 )
+
+// personal fork notes:
+// - tracking upstream wavetermdev/waveterm for learning purposes
+// - golang.org/x/sys and golang.org/x/term pinned to v0.21.0 to match upstream
