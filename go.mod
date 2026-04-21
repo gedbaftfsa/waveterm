@@ -23,3 +23,5 @@ require (
 // personal fork notes:
 // - tracking upstream wavetermdev/waveterm for learning purposes
 // - golang.org/x/sys and golang.org/x/term pinned to v0.21.0 to match upstream
+// - TODO: experiment with upgrading golang.org/x/sys once upstream moves past v0.21.0
+// - keeping go 1.22 to match upstream; do not bump without checking CI compatibility
