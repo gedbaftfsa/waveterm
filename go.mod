@@ -27,3 +27,7 @@ require (
 // - keeping go 1.22 to match upstream; do not bump without checking CI compatibility
 // - NOTE: mattn/go-sqlite3 requires CGO; make sure CGO_ENABLED=1 when building locally
 //   on macOS: brew install gcc if needed; on Linux: apt install gcc
+// - NOTE: gorilla/websocket and gorilla/mux appear unmaintained upstream; worth watching
+//   for community forks (e.g. gorilla is now community-maintained as of 2023, should be ok)
+// - TODO: look into replacing mitchellh/mapstructure with encoding/json or go-json for
+//   potential perf gains and fewer dependencies
